@@ -457,9 +457,9 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
                         InlineKeyboardButton(text="ғᴏᴜɴᴅᴇʀ", callback_data="Music_admin"),
                     ],
                     [ 
-                        InlineKeyboardButton(text="ᴍɪᴅɴɪɢʜᴛ sᴇx", url=f"https://t.me/+sgGJJiq6lgw0ODA1"),
-                        InlineKeyboardButton(text="ɢɪʀʟɴɪɢʜᴛ", url=f"https://t.me/+xWMHhocgchlhMDA1"),
-                        InlineKeyboardButton(text="sɪʟᴠᴇʀsᴡᴏʀᴅs", url=f"https://t.me/+470sYYvVO3FhYTg1"),
+                        InlineKeyboardButton(text="ᴍɪᴅɴɪɢʜᴛ sᴇx", url=f"https://t.me/+X2dUhY7v-6MxZWI1"),
+                        InlineKeyboardButton(text="ɴɪɢʜᴛʙᴇsᴛ", url=f"https://t.me/+D_MILY2br4M2NzJl"),
+                        InlineKeyboardButton(text="ɴɪɢʜᴛ ᴀɴɢᴇʟs", url=f"https://t.me/+g271ID-HKXJjMjI9"),
                     ],
                     [
                          InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="Music_"),
@@ -507,7 +507,7 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(text="• ɴᴛ ꭙ͢ ᴛᴜʜᴀɴ ʟᴜ •", url=f"https://t.me/Foundermidnight"),
-                        InlineKeyboardButton(text="• ᴀssɪsᴛᴀɴᴛ ɴᴛ •", url=f"https://t.me/FounderGirlnight"),
+                        InlineKeyboardButton(text="• ᴀssɪsᴛᴀɴᴛ ɴᴛ •", url=f"https://t.me/Adiknyadurov"),
                     ],
                     [
                         InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="mukesh_"),
@@ -539,36 +539,28 @@ def Source_about_callback(update: Update, context: CallbackContext):
     if query.data == "source_":
         query.message.edit_caption(
             f"""
-𝙻𝙸𝚂𝚃 𝙶𝚁𝚄𝙿 𝚅𝙸𝙿 𝙱𝙾𝙺𝙴𝙿 
+𝙻𝙻𝙸𝚂𝚃 𝙶𝚁𝚄𝙿 𝚅𝙸𝙿 𝙱𝙾𝙺𝙴𝙿 
 
-𝚃𝙰𝙻𝙴𝙽𝚃 = 50𝙺
-𝙸𝙽𝙳𝙾 = 50𝙺
-𝙲𝙰𝙼𝙿𝚄𝚁𝙰𝙽 = 50𝚔
-𝙱𝙾𝙲𝙸𝙻 = 50𝚔
-𝙱𝙳𝚂𝙼 = 50𝙺
-𝙷𝙴𝙽𝚃𝙰𝙸 = 50𝙺
-𝙿𝙴𝙻𝙰𝙹𝙰𝚁 50𝙺
+𝙸𝙽𝙳𝙾 = 30𝙺
+𝙲𝙰𝙼𝙿𝚄𝚁𝙰𝙽 = 30𝚔
+𝙱𝙾𝙲𝙸𝙻 = 30𝚔
+𝙿𝙴𝙻𝙰𝙹𝙰𝚁 30𝙺
 𝙷𝙸𝙹𝙰𝙱 = 30𝙺
 𝙹𝙰𝚅 = 30𝙺 
 𝙾𝙼𝙴𝚃𝚅 & 𝙻𝙸𝚅𝙴 𝚂𝚃𝚁𝙴𝙰𝙼𝙸𝙽𝙶 = 30𝙺
 
 𝗣𝗘𝗥𝗣𝗔𝗞𝗘𝗧 ! ! !
 
-𝙿𝙰𝙺𝙴𝚃 𝙲𝙴𝚁𝙸𝙰
-250𝙺 7 𝙶𝚁𝚄𝙿
-𝚐𝚛𝚞𝚙 𝚒𝚗𝚍𝚘 + 𝚐𝚛𝚞𝚙 𝚝𝚊𝚕𝚎𝚗𝚝
-
 𝙿𝙰𝙺𝙴𝚃 𝙼𝙰𝙽𝙸𝚂
-200𝙺 5 𝙶𝚁𝚄𝙿
-𝚐𝚛𝚞𝚙 𝚒𝚗𝚍𝚘 + 𝚐𝚛𝚞𝚙 𝚝𝚊𝚕𝚎𝚗𝚝
+65𝙺 5 𝙶𝚁𝚄𝙿
+
 
 𝙿𝙰𝙺𝙴𝚃 𝙷𝙾𝙽𝙴𝚈
-150𝙺 4 𝙶𝚁𝚄𝙿 
-𝚐𝚛𝚞𝚙 𝚒𝚗𝚍𝚘 + 𝚐𝚛𝚞𝚙 𝚝𝚊𝚕𝚎𝚗𝚝
+50𝙺 4 𝙶𝚁𝚄𝙿 
+
 
 𝙿𝙰𝙺𝙴𝚃 𝙶𝙰𝙽𝚃𝙴𝙽𝙶
-100𝙺 3 𝙶𝚁𝚄𝙿 
-𝚐𝚛𝚞𝚙 𝚒𝚗𝚍𝚘 + 𝚐𝚛𝚞𝚙 𝚝𝚊𝚕𝚎𝚗𝚝
+40𝙺 3 𝙶𝚁𝚄𝙿
 """,
             parse_mode=ParseMode.MARKDOWN,
             
@@ -993,11 +985,11 @@ def main():
         try:
             dispatcher.bot.send_photo(
                 f"@Berlinmusic_support",
-                photo=f"https://graph.org/file/512a624c25fafd6654d64.jpg",
+                photo=f"https://telegra.ph//file/dfce1ef0210c119d81a40.jpg",
                 caption=f"""
 ✨ɴᴛ ᴍᴀɴᴀɢᴇ ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ.
 ━━━━━━━━━━━━━
-๏ **ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ ʙʏ :** [ɴᴛ](tg://user?id=994039943)
+๏ **ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ ʙʏ :** [ɴᴛ](tg://user?id=1899959019)
 
 ๏ ** ғᴏᴜɴᴅᴇʀ :** [ᴍɪᴅɴɪɢʜᴛ](https://t.me/areamidnight)
 ━━━━━━━━━━━━━
