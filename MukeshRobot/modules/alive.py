@@ -10,16 +10,16 @@ from telethon import __version__ as tver
 from MukeshRobot import SUPPORT_CHAT, pbot,BOT_USERNAME, OWNER_ID,BOT_NAME,START_IMG
 
 PHOTO = [
-    "https://graph.org/file/512a624c25fafd6654d64.jpg",
-    "https://graph.org/file/512a624c25fafd6654d64.jpg",
-    "https://graph.org/file/512a624c25fafd6654d64.jpg",
-    "https://graph.org/file/512a624c25fafd6654d64.jpg",
-    "https://graph.org/file/512a624c25fafd6654d64.jpg",
+    "https://telegra.ph//file/dfce1ef0210c119d81a40.jpg",
+    "https://telegra.ph//file/dfce1ef0210c119d81a40.jpg",
+    "https://telegra.ph//file/dfce1ef0210c119d81a40.jpg",
+    "https://telegra.ph//file/dfce1ef0210c119d81a40.jpg",
+    "https://telegra.ph//file/dfce1ef0210c119d81a40.jpg",
 ]
 
 Mukesh = [
     [
-        InlineKeyboardButton(text="๏ ᴅᴇᴠ ๏", user_id=994039943),
+        InlineKeyboardButton(text="๏ ᴅᴇᴠ ๏", user_id=1899959019),
         InlineKeyboardButton(text="๏ ꜱᴜᴘᴘᴏʀᴛ ๏", url=f"http://t.me/Berlinmusic_support"),
     ],
     [
@@ -58,9 +58,9 @@ async def restart(client, m: Message):
         START_IMG,
         caption=f"""**ʜʏ ᴍᴇᴋ ,ɢᴡ『[{BOT_NAME}](f"t.me/{BOT_USERNAME}")』**
    ━━━━━━━━━━━━━━━━━━━
-  ๏ ** ᴅᴇᴠᴇʟᴏᴘᴇʀ :** [ɴᴛ](tg://user?id=994039943)
+  ๏ ** ᴅᴇᴠᴇʟᴏᴘᴇʀ :** [ɴᴛ](tg://user?id=1899959019)
   
-  ๏ ** ғᴏᴜɴᴅᴇʀ :** [ᴍɪᴅɴɪɢʜᴛ](https://t.me/+sgGJJiq6lgw0ODA1)
+  ๏ ** ғᴏᴜɴᴅᴇʀ :** [ᴍɪᴅɴɪɢʜᴛ](https://t.me/+X2dUhY7v-6MxZWI1)
    ━━━━━━━━━━━━━━━━━━━""",
         reply_markup=InlineKeyboardMarkup(Mukesh),
     )
