@@ -7,14 +7,14 @@ from sqlalchemy import BigInteger, Boolean, Column, Integer, String, UnicodeText
 from MukeshRobot.modules.helper_funcs.msg_types import Types
 from MukeshRobot.modules.sql import BASE, SESSION
 
-DEFAULT_WELCOME = "ᴇʜ ᴋᴏɴᴛᴏʟ ᴡᴇʟᴄᴏᴍᴇ ᴅɪᴍᴀʀɪ ᴊᴀɴɢᴀɴ ᴋᴇᴋ ᴏʀᴀɴɢ ᴛᴏʟᴏʟ ᴀᴛᴀᴜ ʙᴀʏɪ ᴋᴇᴋ ʙᴀʀᴜ ʟᴀʜɪʀ ʟᴜ, ꜱᴏᴋᴀᴘɪɴ ᴀᴊᴀ ᴍᴇᴋ ᴏᴋᴇʏ."
-DEFAULT_GOODBYE = "ᴛɪᴀᴛɪ ᴍᴇᴋ, ᴊᴀɴɢᴀɴ ʟᴜᴘᴀ, ʙᴇʀᴀᴋ ᴅᴜʟᴜ ꜱᴇʙᴇʟᴜᴍ ᴀᴋᴛɪᴠɪᴛᴀꜱ"
+DEFAULT_WELCOME = "ᴡᴇʟᴄᴏᴍᴇ ᴋᴀᴋ sᴇʟᴀᴍᴀᴛ ᴅᴀᴛᴀɴɢ ᴅɪ ɢʀᴏᴜᴘ ɪɴɪ, sᴇᴍᴏɢᴀ ʙᴇᴛᴀʜ ʏᴀ."
+DEFAULT_GOODBYE = "ʜᴀᴛɪ ʜᴀᴛɪ ᴅɪᴊᴀʟᴀɴ ᴋᴀᴋ"
 
 DEFAULT_WELCOME_MESSAGES = [
-    "ᴇʜ ᴋᴏɴᴛᴏʟ ᴡᴇʟᴄᴏᴍᴇ ᴅɪᴍᴀʀɪ ᴊᴀɴɢᴀɴ ᴋᴇᴋ ᴏʀᴀɴɢ ᴛᴏʟᴏʟ ᴀᴛᴀᴜ ʙᴀʏɪ ᴋᴇᴋ ʙᴀʀᴜ ʟᴀʜɪʀ ʟᴜ, ꜱᴏᴋᴀᴘɪɴ ᴀᴊᴀ ᴍᴇᴋ ᴏᴋᴇʏ.",
+    "ᴡᴇʟᴄᴏᴍᴇ ᴋᴀᴋ sᴇʟᴀᴍᴀᴛ ᴅᴀᴛᴀɴɢ ᴅɪ ɢʀᴏᴜᴘ ɪɴɪ, sᴇᴍᴏɢᴀ ʙᴇᴛᴀʜ ʏᴀ.",
 ]
 DEFAULT_GOODBYE_MESSAGES = [
-    "ᴛɪᴀᴛɪ ᴍᴇᴋ, ᴊᴀɴɢᴀɴ ʟᴜᴘᴀ, ʙᴇʀᴀᴋ ᴅᴜʟᴜ ꜱᴇʙᴇʟᴜᴍ ᴀᴋᴛɪᴠɪᴛᴀꜱ",
+    "ʜᴀᴛɪ ʜᴀᴛɪ ᴅɪᴊᴀʟᴀɴ ᴋᴀᴋ",
 ]
 # Line 111 to 152 are references from https://bindingofisaac.fandom.com/wiki/Fortune_Telling_Machine
 
