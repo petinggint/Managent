@@ -83,15 +83,12 @@ PM_START_TEXT = """
    *➻ ᴜsᴇʀs »* {}
    *➻ ᴄʜᴀᴛs »* {}
 ─────────────────
-*ᴅᴇᴠ: @kakakdurov
+*ᴅᴇᴠ: @NIGHTBESTOFFICIAL
 
 ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ᴅɪ ʙᴀᴡᴀʜ ᴜɴᴛᴜᴋ ᴍᴇɴɢᴇᴛᴀʜᴜɪ ᴍᴏᴅᴜʟ ᴅᴀɴ ᴄᴏᴍᴍᴀɴᴅꜱ ⚠️*
 """
 
 buttons = [
-        [
-            InlineKeyboardButton(text="ᴊᴀᴊᴀɴᴀɴ ᴛᴇʟᴇ 📩", callback_data="Music_bot"),
-        ],
         [
             InlineKeyboardButton(text="ᴄᴏᴍᴍᴀɴᴅs ⁉️", callback_data="donation_help"),
             InlineKeyboardButton(text="ᴍᴀɴᴀɢᴇᴍᴇɴᴛ 💈", callback_data="mukesh_support"),
@@ -371,15 +368,12 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
             f"\n*➥ ᴜsᴇʀs »* {sql.num_users()}"
             f"\n*➥ ᴄʜᴀᴛs »* {sql.num_chats()}"
             "\n────────────────────"
-            "\n*➥ ᴅᴇᴠᴇʟᴏᴘᴇʀ : @kakakdurov.*"
+            "\n*➥ ᴅᴇᴠᴇʟᴏᴘᴇʀ : @NIGHTBESTOFFICIAL.*"
             f"\n\n*➥ ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ᴅɪ ʙᴀᴡᴀʜ ᴜɴᴛᴜᴋ ᴍᴇɴᴅᴀᴘᴀᴛᴋᴀɴ ɪɴꜰᴏ ᴛᴇɴᴛᴀɴɢ ᴘᴇɴɢɢᴜɴᴀᴀɴ ʙᴏᴛ {dispatcher.bot.first_name}.*",
             parse_mode=ParseMode.MARKDOWN,
             
             reply_markup=InlineKeyboardMarkup(
                 [
-        [
-            InlineKeyboardButton(text="ᴊᴀᴊᴀɴᴀɴ ᴛᴇʟᴇ 📩", callback_data="Music_bot"),
-        ],
         [
             InlineKeyboardButton(text="ᴄᴏᴍᴍᴀɴᴅs ⁉️", callback_data="donation_help"),
             InlineKeyboardButton(text="ᴍᴀɴᴀɢᴇᴍᴇɴᴛ 💈", callback_data="mukesh_support"),
@@ -457,9 +451,9 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
                         InlineKeyboardButton(text="ғᴏᴜɴᴅᴇʀ", callback_data="Music_admin"),
                     ],
                     [ 
-                        InlineKeyboardButton(text="ᴍɪᴅɴɪɢʜᴛ sᴇx", url=f"https://t.me/+X2dUhY7v-6MxZWI1"),
-                        InlineKeyboardButton(text="ɴɪɢʜᴛʙᴇsᴛ", url=f"https://t.me/+D_MILY2br4M2NzJl"),
-                        InlineKeyboardButton(text="ɴɪɢʜᴛ ᴀɴɢᴇʟs", url=f"https://t.me/+g271ID-HKXJjMjI9"),
+                        InlineKeyboardButton(text="ɴɪɢʜᴛ ᴀɴɢᴇʟs", url=f"https://t.me/+asLPQ60xQOw4MDhl"),
+                        InlineKeyboardButton(text="ɴɪɢʜᴛʙᴇsᴛ", url=f"https://t.me/+b7QiAPhHnkphY2Vl"),
+                        InlineKeyboardButton(text="ɢɪʀʟɴɪɢʜᴛ", url=f"https://t.me/+-JOYABrN-s8yZmU1"),
                     ],
                     [
                          InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="Music_"),
@@ -474,7 +468,7 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="ʙᴇʀʟɪɴ", url=f"https://t.me/kakakdurov"),
+                        InlineKeyboardButton(text="ʙᴇʀʟɪɴ", url=f"https://t.me/NIGHTBESTOFFICIAL"),
                     ],
                     [ 
                         InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="basic_help"),
@@ -506,8 +500,7 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="• ʙᴇʀʟɪɴ •", url=f"https://t.me/kakakdurov"),
-                        InlineKeyboardButton(text="• ᴀssɪsᴛᴀɴᴛ ʙᴇʀʟɪɴ •", url=f"https://t.me/Adiknyadurov"),
+                        InlineKeyboardButton(text="• ʙᴇʀʟɪɴ •", url=f"https://t.me/NIGHTBESTOFFICIAL"),
                     ],
                     [
                         InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="mukesh_"),
@@ -567,7 +560,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="• ᴀᴅᴍɪɴ 1", url=f"https://t.me/kakakdurov"),
+                        InlineKeyboardButton(text="• ᴀᴅᴍɪɴ 1", url=f"https://t.me/VVIP_NT"),
                     ],
                     [
                          InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="mukesh_support"),
@@ -618,7 +611,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="ɴᴛ", url=f"https://t.me/kakakdurov"),
+                        InlineKeyboardButton(text="ɴᴛ", url=f"https://t.me/NIGHTBESTOFFICIAL"),
                     ],
                     [ 
                         InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="basic_help"),
@@ -991,7 +984,7 @@ def main():
 ━━━━━━━━━━━━━
 ๏ **ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ ʙʏ :** [ɴᴛ](tg://user?id=7054610436)
 
-๏ ** ғᴏᴜɴᴅᴇʀ :** [ᴍɪᴅɴɪɢʜᴛ](https://t.me/areanightbest)
+๏ ** ғᴏᴜɴᴅᴇʀ :** [ᴀʟʟ ɴɪɢʜᴛ](https://t.me/allnightarea)
 ━━━━━━━━━━━━━
 """,reply_markup=x,
                 parse_mode=ParseMode.MARKDOWN,
