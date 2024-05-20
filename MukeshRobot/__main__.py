@@ -83,7 +83,7 @@ PM_START_TEXT = """
    *➻ ᴜsᴇʀs »* {}
    *➻ ᴄʜᴀᴛs »* {}
 ─────────────────
-*ᴅᴇᴠ: @TUHAN_NEKOGRAM
+*ᴅᴇᴠ: @entebaik
 
 ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ᴅɪ ʙᴀᴡᴀʜ ᴜɴᴛᴜᴋ ᴍᴇɴɢᴇᴛᴀʜᴜɪ ᴍᴏᴅᴜʟ ᴅᴀɴ ᴄᴏᴍᴍᴀɴᴅꜱ ⚠️*
 """
@@ -368,7 +368,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
             f"\n*➥ ᴜsᴇʀs »* {sql.num_users()}"
             f"\n*➥ ᴄʜᴀᴛs »* {sql.num_chats()}"
             "\n────────────────────"
-            "\n*➥ ᴅᴇᴠᴇʟᴏᴘᴇʀ : @TUHAN_NEKOGRAM.*"
+            "\n*➥ ᴅᴇᴠᴇʟᴏᴘᴇʀ : @entebaik.*"
             f"\n\n*➥ ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ᴅɪ ʙᴀᴡᴀʜ ᴜɴᴛᴜᴋ ᴍᴇɴᴅᴀᴘᴀᴛᴋᴀɴ ɪɴꜰᴏ ᴛᴇɴᴛᴀɴɢ ᴘᴇɴɢɢᴜɴᴀᴀɴ ʙᴏᴛ {dispatcher.bot.first_name}.*",
             parse_mode=ParseMode.MARKDOWN,
             
@@ -468,7 +468,7 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="ʙᴇʀʟɪɴ", url=f"https://t.me/TUHAN_NEKOGRAM"),
+                        InlineKeyboardButton(text="ʙᴇʀʟɪɴ", url=f"https://t.me/entebaik"),
                     ],
                     [ 
                         InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="basic_help"),
@@ -500,7 +500,7 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="• ʙᴇʀʟɪɴ •", url=f"https://t.me/TUHAN_NEKOGRAM"),
+                        InlineKeyboardButton(text="• ʙᴇʀʟɪɴ •", url=f"https://t.me/entebaik"),
                     ],
                     [
                         InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="mukesh_"),
@@ -611,7 +611,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="ɴᴛ", url=f"https://t.me/TUHAN_NEKOGRAM"),
+                        InlineKeyboardButton(text="ɴᴛ", url=f"https://t.me/entebaik"),
                     ],
                     [ 
                         InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="basic_help"),
