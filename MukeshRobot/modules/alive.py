@@ -19,12 +19,12 @@ PHOTO = [
 
 Mukesh = [
     [
-        InlineKeyboardButton(text="๏ ᴅᴇᴠ ๏", user_id=7054610436),
+        InlineKeyboardButton(text="๏ ᴅᴇᴠ ๏", user_id=484576504),
         InlineKeyboardButton(text="๏ ꜱᴜᴘᴘᴏʀᴛ ๏", url=f"http://t.me/Berlinmusic_support"),
     ],
     [
-        InlineKeyboardButton(text="๏ ғᴏᴜɴᴅᴇʀ ๏", url=f"https://t.me/areanightbest"),
-        InlineKeyboardButton(text="ꎇ ɴɪɢʜᴛʙᴇsᴛ ꎇ", url=f"https://t.me/+D_MILY2br4M2NzJl"),
+        InlineKeyboardButton(text="๏ ғᴏᴜɴᴅᴇʀ ๏", url=f"https://t.me/allnightarea"),
+        InlineKeyboardButton(text="ꎇ ɴɪɢʜᴛʙᴇsᴛ ꎇ", url=f"https://t.me/allnightarea"),
     ],
     [                         
         InlineKeyboardButton(
@@ -58,9 +58,9 @@ async def restart(client, m: Message):
         START_IMG,
         caption=f"""**ʜʏ ᴍᴇᴋ ,ɢᴡ『[{BOT_NAME}](f"t.me/{BOT_USERNAME}")』**
    ━━━━━━━━━━━━━━━━━━━
-  ๏ ** ᴅᴇᴠᴇʟᴏᴘᴇʀ :** [ɴᴛ](tg://user?id=7054610436)
+  ๏ ** ᴅᴇᴠᴇʟᴏᴘᴇʀ :** [ɴᴛ](tg://user?id=484576504)
   
-  ๏ ** ғᴏᴜɴᴅᴇʀ :** [ɴɪɢʜᴛʙᴇsᴛ](https://t.me/+D_MILY2br4M2NzJl)
+  ๏ ** ғᴏᴜɴᴅᴇʀ :** [ɴɪɢʜᴛʙᴇsᴛ](https://t.me/allnightarea)
    ━━━━━━━━━━━━━━━━━━━""",
         reply_markup=InlineKeyboardMarkup(Mukesh),
     )
