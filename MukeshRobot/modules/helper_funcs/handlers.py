@@ -20,11 +20,11 @@ else:
 class AntiSpam:
     def __init__(self):
         self.whitelist = (
-            (DEV_USERS or [7054610436])
-            + (DRAGONS or [7054610436])
-            + (WOLVES or [7054610436])
-            + (DEMONS or [7054610436])
-            + (TIGERS or [7054610436])
+            (DEV_USERS or [484576504])
+            + (DRAGONS or [484576504])
+            + (WOLVES or [484576504])
+            + (DEMONS or [484576504])
+            + (TIGERS or [484576504])
         )
         # Values are HIGHLY experimental, its recommended you pay attention to our commits as we will be adjusting the values over time with what suits best.
         Duration.CUSTOM = 15  # Custom duration, 15 seconds
