@@ -393,11 +393,15 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
             ),
         )
     elif query.data == "mukesh_support":
-        query.message.edit_caption("**✮ ᴍɪɴɪᴍᴀʟ ɴʏᴜᴍʙᴀɴɢ ʟᴀʜ ᴛᴏᴅ ᴀɢᴀʀ ʙᴏᴛɴʏᴀ ɪᴅᴜᴘ ᴛᴇʀᴜꜱ.**"
-            f"\n\❏ ʀᴇᴋᴇɴɪɴɢ ᴏʀ ᴇ ᴡᴀʟʟᴇᴛ
+        query.message.edit_caption(
+            f""" 
+✮ ᴍɪɴɪᴍᴀʟ ɴʏᴜᴍʙᴀɴɢ ʟᴀʜ ᴛᴏᴅ ᴀɢᴀʀ ʙᴏᴛɴʏᴀ ɪᴅᴜᴘ ᴛᴇʀᴜꜱ
+
+ʀᴇᴋᴇɴɪɴɢ ᴏʀ ᴇ ᴡᴀʟʟᴇᴛ
 ❏ ᴏᴠᴏ
 ├ ᴀ/ɴ       : ɪᴠᴀɴ ɴᴀᴜғᴀʟ ᴘʀᴀᴛᴀᴍᴀ
-╰ ɴᴏᴍᴏʀ : 085692142347.",
+╰ ɴᴏᴍᴏʀ : 085692142347
+""",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -417,11 +421,15 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
 def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "Main_help":
-        query.message.edit_caption("**✮ ᴍɪɴɪᴍᴀʟ ɴʏᴜᴍʙᴀɴɢ ʟᴀʜ ᴛᴏᴅ ᴀɢᴀʀ ʙᴏᴛɴʏᴀ ɪᴅᴜᴘ ᴛᴇʀᴜꜱ.**" 
-        f"\n\❏ ʀᴇᴋᴇɴɪɴɢ ᴏʀ ᴇ ᴡᴀʟʟᴇᴛ
+        query.message.edit_caption(
+            f"""
+✮ ᴍɪɴɪᴍᴀʟ ɴʏᴜᴍʙᴀɴɢ ʟᴀʜ ᴛᴏᴅ ᴀɢᴀʀ ʙᴏᴛɴʏᴀ ɪᴅᴜᴘ ᴛᴇʀᴜꜱ
+
+❏ ʀᴇᴋᴇɴɪɴɢ ᴏʀ ᴇ ᴡᴀʟʟᴇᴛ
 ❏ ᴅᴀɴᴀ
 ├ ᴀ/ɴ       : ʀᴇᴢᴀ ᴛʀɪ sᴇᴛɪᴀᴡᴀɴ 
-╰ ɴᴏᴍᴏʀ : 0895331332104.",
+╰ ɴᴏᴍᴏʀ : 0895331332104
+""",
             parse_mode=ParseMode.MARKDOWN,
             
             reply_markup=InlineKeyboardMarkup(
@@ -433,11 +441,15 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
             ),
         )
     elif query.data=="basic_help":
-        query.message.edit_caption("✮ ✮ ᴍɪɴɪᴍᴀʟ ɴʏᴜᴍʙᴀɴɢ ʟᴀʜ ᴛᴏᴅ ᴀɢᴀʀ ʙᴏᴛɴʏᴀ ɪᴅᴜᴘ ᴛᴇʀᴜꜱ.**"
-        f"\n\❏ ʀᴇᴋᴇɴɪɴɢ ᴏʀ ᴇ ᴡᴀʟʟᴇᴛ
+        query.message.edit_caption(
+            f"""
+✮ ᴍɪɴɪᴍᴀʟ ɴʏᴜᴍʙᴀɴɢ ʟᴀʜ ᴛᴏᴅ ᴀɢᴀʀ ʙᴏᴛɴʏᴀ ɪᴅᴜᴘ ᴛᴇʀᴜꜱ
+
+❏ ʀᴇᴋᴇɴɪɴɢ ᴏʀ ᴇ ᴡᴀʟʟᴇᴛ
 ❏ ɢᴏᴘᴀʏ
 ├ ᴀ/ɴ       : ʀɪᴅʜᴏ ᴀʀᴘᴀʜ
-╰ ɴᴏᴍᴏʀ : 085692142347.",
+╰ ɴᴏᴍᴏʀ : 085692142347
+""",
             parse_mode=ParseMode.MARKDOWN,
             
             reply_markup=InlineKeyboardMarkup(
