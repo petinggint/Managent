@@ -7,9 +7,9 @@ class Config(object):
     API_ID = "" # integer value, dont use ""
     API_HASH = ""
     TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 484576504 # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_ID = 7384925290 # If you dont know, run the bot and do /id in your private chat with it, also an integer
     
-    SUPPORT_CHAT = "berlinmusic_support"  # Your own group for support, do not add the @
+    SUPPORT_CHAT = "kingsupportmusic"  # Your own group for support, do not add the @
     START_IMG = ""
     EVENT_LOGS = ()  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
     MONGO_DB_URI= ""
@@ -25,12 +25,12 @@ class Config(object):
     #generate api from telegram using /token command bot username :>> @adventure_robot
 
     # Optional fields
-    BL_CHATS = [484576504]  # List of groups that you want blacklisted.
-    DRAGONS = [484576504]  # User id of sudo users
-    DEV_USERS = [484576504]  # User id of dev users
-    DEMONS = [484576504]  # User id of support users
-    TIGERS = [484576504]  # User id of tiger users
-    WOLVES = [484576504]  # User id of whitelist users
+    BL_CHATS = [7384925290]  # List of groups that you want blacklisted.
+    DRAGONS = [7384925290]  # User id of sudo users
+    DEV_USERS = [7384925290]  # User id of dev users
+    DEMONS = [7384925290]  # User id of support users
+    TIGERS = [7384925290]  # User id of tiger users
+    WOLVES = [7384925290]  # User id of whitelist users
 
     ALLOW_CHATS = True
     ALLOW_EXCL = True
