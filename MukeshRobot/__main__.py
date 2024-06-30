@@ -83,7 +83,7 @@ PM_START_TEXT = """
    *➻ ᴜsᴇʀs »* {}
    *➻ ᴄʜᴀᴛs »* {}
 ─────────────────
-*ᴅᴇᴠ: @entebaik
+*ᴅᴇᴠ: @iyalusepuh
 
 ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ᴅɪ ʙᴀᴡᴀʜ ᴜɴᴛᴜᴋ ᴍᴇɴɢᴇᴛᴀʜᴜɪ ᴍᴏᴅᴜʟ ᴅᴀɴ ᴄᴏᴍᴍᴀɴᴅꜱ ⚠️*
 """
@@ -91,11 +91,11 @@ PM_START_TEXT = """
 buttons = [
         [
             InlineKeyboardButton(text="ᴄᴏᴍᴍᴀɴᴅs ⁉️", callback_data="donation_help"),
-            InlineKeyboardButton(text="ᴍᴀɴᴀɢᴇᴍᴇɴᴛ 💈", callback_data="mukesh_support"),
+            InlineKeyboardButton(text="ᴠᴠɪᴘ ʙᴏᴋᴇᴘ 💈", callback_data="source_"),
         ],
         [
             InlineKeyboardButton(text="ᴅᴇᴠ 👑", callback_data="expert_help"),
-            InlineKeyboardButton(text="ᴅᴏɴᴀꜱɪ💰", callback_data="Main_help"),
+            InlineKeyboardButton(text="ᴅᴏɴᴀꜱɪ💰", callback_data="advance_help"),
         ],
     [
         InlineKeyboardButton(
@@ -368,7 +368,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
             f"\n*➥ ᴜsᴇʀs »* {sql.num_users()}"
             f"\n*➥ ᴄʜᴀᴛs »* {sql.num_chats()}"
             "\n────────────────────"
-            "\n*➥ ᴅᴇᴠᴇʟᴏᴘᴇʀ : @entebaik.*"
+            "\n*➥ ᴅᴇᴠᴇʟᴏᴘᴇʀ : @iyalusepuh.*"
             f"\n\n*➥ ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ᴅɪ ʙᴀᴡᴀʜ ᴜɴᴛᴜᴋ ᴍᴇɴᴅᴀᴘᴀᴛᴋᴀɴ ɪɴꜰᴏ ᴛᴇɴᴛᴀɴɢ ᴘᴇɴɢɢᴜɴᴀᴀɴ ʙᴏᴛ {dispatcher.bot.first_name}.*",
             parse_mode=ParseMode.MARKDOWN,
             
@@ -376,11 +376,11 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                 [
         [
             InlineKeyboardButton(text="ᴄᴏᴍᴍᴀɴᴅs ⁉️", callback_data="donation_help"),
-            InlineKeyboardButton(text="ᴍᴀɴᴀɢᴇᴍᴇɴᴛ 💈", callback_data="mukesh_support"),
+            InlineKeyboardButton(text="ᴠᴠɪᴘ ʙᴏᴋᴇᴘ 💈", callback_data="source_"),
         ],
         [
             InlineKeyboardButton(text="ᴅᴇᴠ 👑", callback_data="expert_help"),
-            InlineKeyboardButton(text="ᴅᴏɴᴀꜱɪ💰", callback_data="Main_help"),
+            InlineKeyboardButton(text="ᴅᴏɴᴀꜱɪ💰", callback_data="advance_help"),
         ],
     [
         InlineKeyboardButton(
@@ -393,22 +393,16 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
             ),
         )
     elif query.data == "mukesh_support":
-        query.message.edit_caption("**ᴅɪʙᴀᴡᴀʜ ɪɴɪ ʙᴇʙᴇʀᴀᴘᴀ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴅᴀɴ ᴇᴅɪᴛᴏʀ ᴛᴇʟᴇɢʀᴀᴍ [ɴᴛ x ᴛᴜʜᴀɴ](https://t.me/Foundermidnight).**"
-            f"\n\nꜱɪʟᴀʜᴋᴀɴ ᴋʟɪᴋ ʙᴜᴛᴛᴏɴ ᴅɪ ʙᴀᴡᴀʜ..",
+        query.message.edit_caption("**✮ ᴍɪɴɪᴍᴀʟ ɴʏᴜᴍʙᴀɴɢ ʟᴀʜ ᴛᴏᴅ ᴀɢᴀʀ ʙᴏᴛɴʏᴀ ɪᴅᴜᴘ ᴛᴇʀᴜꜱ.**"
+            f"\n\❏ ʀᴇᴋᴇɴɪɴɢ ᴏʀ ᴇ ᴡᴀʟʟᴇᴛ
+❏ ᴏᴠᴏ
+├ ᴀ/ɴ       : ɪᴠᴀɴ ɴᴀᴜғᴀʟ ᴘʀᴀᴛᴀᴍᴀ
+╰ ɴᴏᴍᴏʀ : 085692142347.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="ᴅᴏɴᴀꜱɪ💰", callback_data="Music_extra"),
-                    ],
-                    [
-                        InlineKeyboardButton(text="ᴍᴀɴᴀɢᴇᴍᴇɴᴛ", callback_data="basic_help"),
-                    ],
-                    [
-                        InlineKeyboardButton(text="ᴏʀᴅᴇʀ ᴠᴠɪᴘ ʙᴏᴋᴇᴘ", callback_data="source_"),
-                    ],
-                    [
-                        InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="mukesh_"),
+                        InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="advance_help"),
                     ],
                 ]
             ),
@@ -423,40 +417,33 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
 def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "Main_help":
-        query.message.edit_caption("**✮ ᴍɪɴɪᴍᴀʟ ɴʏᴜᴍʙᴀɴɢ ʟᴀʜ ᴛᴏᴅ ᴀɢᴀʀ ʙᴏᴛɴʏᴀ ɪᴅᴜᴘ ᴛᴇʀᴜꜱ**" 
-        f"\n\nᴋʟɪᴋ ᴀᴊᴀ ʙᴜᴛᴛᴏɴ ᴅᴀɴᴀ ᴅɪʙᴀᴡᴀʜ ᴅɪᴛᴜɴɢɢᴜ ꜱᴜᴍʙᴀɴɢᴀɴʏᴀ..",
+        query.message.edit_caption("**✮ ᴍɪɴɪᴍᴀʟ ɴʏᴜᴍʙᴀɴɢ ʟᴀʜ ᴛᴏᴅ ᴀɢᴀʀ ʙᴏᴛɴʏᴀ ɪᴅᴜᴘ ᴛᴇʀᴜꜱ.**" 
+        f"\n\❏ ʀᴇᴋᴇɴɪɴɢ ᴏʀ ᴇ ᴡᴀʟʟᴇᴛ
+❏ ᴅᴀɴᴀ
+├ ᴀ/ɴ       : ʀᴇᴢᴀ ᴛʀɪ sᴇᴛɪᴀᴡᴀɴ 
+╰ ɴᴏᴍᴏʀ : 0895331332104.",
             parse_mode=ParseMode.MARKDOWN,
             
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="ᴅᴀɴᴀ💰", url=f"https://link.dana.id/qr/ag3zovr2"),
-                    ],
-                    [
-                        InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="mukesh_"),
+                        InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="advance_help"),
                     ],
                 ]
             ),
         )
     elif query.data=="basic_help":
-        query.message.edit_caption(
-"""✮ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ɪɴɪ ᴅɪ ʙᴜᴀᴛ ʙᴇʀᴛᴜᴊᴜᴀɴ ʜᴀᴠᴇ ꜰᴜɴ ᴅᴀɴ ꜱᴀʟɪɴɢ ᴍᴇʀᴀɴɢᴋᴜʟ, ᴅɪꜱɪɴɪ ɢᴀʙᴀᴅᴀ ʏᴀɴɢ ɴᴀᴍᴀɴʏᴀ ᴘᴇᴛɪɴɢɢɪ" ꜱᴇᴍᴜᴀ ʀᴀᴛᴀ ᴋᴏɴᴛᴏʟ
-
-ʟᴜ ʙɪꜱᴀ ᴊᴏɪɴ ɢʀᴏᴜᴘꜱ ᴅɪʙᴀᴡᴀʜ, ᴋᴀʟᴏ ᴍᴀᴜ ɴɢᴇ ᴀᴅᴍɪɴ ʟᴀɴɢꜱᴜɴɢ ᴘᴄᴘᴄ ᴀᴊᴀ ɴᴛ :
-""",parse_mode=ParseMode.MARKDOWN,
+        query.message.edit_caption("✮ ✮ ᴍɪɴɪᴍᴀʟ ɴʏᴜᴍʙᴀɴɢ ʟᴀʜ ᴛᴏᴅ ᴀɢᴀʀ ʙᴏᴛɴʏᴀ ɪᴅᴜᴘ ᴛᴇʀᴜꜱ.**"
+        f"\n\❏ ʀᴇᴋᴇɴɪɴɢ ᴏʀ ᴇ ᴡᴀʟʟᴇᴛ
+❏ ɢᴏᴘᴀʏ
+├ ᴀ/ɴ       : ʀɪᴅʜᴏ ᴀʀᴘᴀʜ
+╰ ɴᴏᴍᴏʀ : 085692142347.",
+            parse_mode=ParseMode.MARKDOWN,
             
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="ғᴏᴜɴᴅᴇʀ", callback_data="Music_admin"),
-                    ],
-                    [ 
-                        InlineKeyboardButton(text="ɴɪɢʜᴛ ᴀɴɢᴇʟs", url=f"https://t.me/+asLPQ60xQOw4MDhl"),
-                        InlineKeyboardButton(text="ɴɪɢʜᴛʙᴇsᴛ", url=f"https://t.me/+b7QiAPhHnkphY2Vl"),
-                        InlineKeyboardButton(text="ɢɪʀʟɴɪɢʜᴛ", url=f"https://t.me/+-JOYABrN-s8yZmU1"),
-                    ],
-                    [
-                         InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="Music_"),
+                         InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="advance_help"),
                     ],
                 ]
             ),
@@ -468,7 +455,7 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="ʙᴇʀʟɪɴ", url=f"https://t.me/entebaik"),
+                        InlineKeyboardButton(text="ᴋɪɴɢ", url=f"https://t.me/entebaik"),
                     ],
                     [ 
                         InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="basic_help"),
@@ -484,7 +471,9 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="ᴅᴀɴᴀ💰", url=f"https://link.dana.id/qr/ag3zovr2"),
+                        InlineKeyboardButton(text="ᴅᴀɴᴀ", callback_data="main_help"),
+                        InlineKeyboardButton(text="ɢᴏᴘᴀʏ", callback_data="basic_help"),
+                        InlineKeyboardButton(text="ᴏᴠᴏ", callback_data="mukesh_support"),
                     ],
                     [
                         InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="donation_help"),
@@ -500,7 +489,7 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="• ʙᴇʀʟɪɴ •", url=f"https://t.me/entebaik"),
+                        InlineKeyboardButton(text="• ᴋɪɴɢ •", url=f"https://t.me/iyalusepuh"),
                     ],
                     [
                         InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="mukesh_"),
@@ -560,10 +549,10 @@ def Source_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="• ᴀᴅᴍɪɴ 1", url=f"https://t.me/VVIP_NT"),
+                        InlineKeyboardButton(text="• ᴀᴅᴍɪɴ 1", url=f"https://t.me/iyalusepuh"),
                     ],
                     [
-                         InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="mukesh_support"),
+                         InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="mukesh_"),
                     ]
                 ]
             ),
@@ -917,7 +906,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 6024180996:
+        if OWNER_ID != 7384925290:
             update.effective_message.reply_text(
                 f"» ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴩᴇʀ ᴏғ {dispatcher.bot.first_name} sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs [ɢɪᴛʜᴜʙ](https://github.com/petinggi)"
                 f"\n\nʙᴜᴛ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴅᴏɴᴀᴛᴇ ᴛᴏ ᴛʜᴇ ᴩᴇʀsᴏɴ ᴄᴜʀʀᴇɴᴛʟʏ ʀᴜɴɴɪɴɢ ᴍᴇ : [ʜᴇʀᴇ]({DONATE_STRING})",
@@ -977,14 +966,14 @@ def main():
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
             dispatcher.bot.send_photo(
-                f"@Berlinmusic_support",
-                photo=f"https://telegra.ph//file/dfce1ef0210c119d81a40.jpg",
+                f"@kingsupportmusic",
+                photo=f"https://graph.org/file/9811ddead06fb335a9f86.jpg",
                 caption=f"""
-✨ɴᴛ ᴍᴀɴᴀɢᴇ ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ.
+✨ᴋɪɴɢ ᴍᴀɴᴀɢᴇ ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ.
 ━━━━━━━━━━━━━
-๏ **ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ ʙʏ :** [ɴᴛ](tg://user?id=484576504)
+๏ **ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ ʙʏ :** [ᴋɪɴɢ](tg://user?id=7384925290)
 
-๏ ** ғᴏᴜɴᴅᴇʀ :** [ᴀʟʟ ɴɪɢʜᴛ](https://t.me/allnightarea)
+๏ ** ғᴏᴜɴᴅᴇʀ :** [ʀɢs](https://t.me/asupanRedglorysex)
 ━━━━━━━━━━━━━
 """,reply_markup=x,
                 parse_mode=ParseMode.MARKDOWN,
